@@ -1,0 +1,14 @@
+.grid {
+  margin: 20px 0;
+  display: grid;
+  padding: 0 18%;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 3rem;
+}
+.grid .card {
+  height: 98%;
+}
+#search-result {
+  padding: 0 18%;
+  font-size: 1rem;
+}

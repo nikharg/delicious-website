@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18%;
+  height: 4rem;
+  color: #171a29;
+}
+a:visited {
+  color: #171a29;
+}
+.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Pacifico", cursive;
+  font-size: 0.8rem;
+}
+.nav-title .icon {
+  font-size: 1.5rem;
+}
+.searchbar {
+  position: relative;
+  padding: 0 0 0 25px;
+  background-color: #171a29;
+  width: 15rem;
+  height: 1.9rem;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+.searchbar .search {
+  position: absolute;
+  left: 5px;
+  height: 100%;
+  color: #fff;
+}
+.searchbar input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  width: 96%;
+  height: 100%;
+}
+.cuisines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.7rem;
+}
+.cuisine {
+  cursor: pointer;
+  background-color: #171a29;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.7rem;
+}
+.cuisine:active {
+  transform: scale(0.8);
+  transition: all 1s ease-in-out;
+  background: linear-gradient(to right, #f27121, #e94057);
+}
+.cuisine p {
+  font-size: 0.5rem;
+}

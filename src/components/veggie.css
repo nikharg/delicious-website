@@ -1,0 +1,17 @@
+.veg-wrapper {
+  overflow: hidden;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 18%;
+}
+.veg-title {
+  margin-top: 5px;
+  font-size: 1.3rem;
+}
+.veg-wrapper .card img {
+  width: 250px;
+  height: 190px;
+  object-fit: cover;
+}

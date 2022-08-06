@@ -1,0 +1,28 @@
+.footer {
+  background-color: #171a29;
+  padding: 0 18%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer .copy {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.footer .social {
+  gap: 0.8rem;
+  display: flex;
+}
+.footer .title {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+  gap: 0.5rem;
+}
+.title .icon {
+  font-size: 1.4rem;
+}
